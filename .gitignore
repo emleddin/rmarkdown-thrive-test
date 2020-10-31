@@ -1,6 +1,7 @@
 .DS_STORE
 .Rproj.user
 .Rproj.user/*
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata

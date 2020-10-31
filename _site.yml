@@ -1,7 +1,8 @@
 name: "THRIVE Lifeline"
 output_dir: "."
 navbar:
-  title: "THRIVE Lifeline"
+#  title: "THRIVE Lifeline"
+  title: "<img id=\"logo\" style=\"width: 50px;\" src=\"images/test_logo_white_cropped.png\" />"
   left:
     - text: "Home"
       href: index.html
@@ -19,11 +20,14 @@ navbar:
       href: volunteer.html
     - text: "Partners"
       href: partners.html
-    - text: "Support Us"
+    - text: 'Support Us'
+      icon: fa-external-link-alt
       href: https://thrivelifeline.org/gofundme-external.html
+
 
   right:
     - text: "Text Us"
+      icon: fa-mobile-alt
       href: sms:+13136628209&body=THRIVE
 
 output:
