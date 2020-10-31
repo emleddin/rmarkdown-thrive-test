@@ -1,2 +1,7 @@
 .DS_STORE
-_site/
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+test-R-site.Rproj
+README.html
