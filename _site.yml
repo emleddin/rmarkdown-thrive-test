@@ -7,9 +7,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Crisis Resources"
-      href: resources.html
+    - text: "Resources"
       menu:
+      - text: "Crisis Resources"
+        href: resources.html
       - text: "Reading List"
         href: reading-list.html
       - text: "STEMM Organizations"
