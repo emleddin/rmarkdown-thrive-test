@@ -33,7 +33,9 @@ individuals aged 18+.
 <br/>
 <br/>
 
-# Together, we THRIVE.
+<center>
+<p style="font-size:24pt; font-weight: bolder">Together, we THRIVE.</p>
+</center>
 
 <br/>
 <br/>

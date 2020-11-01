@@ -1,5 +1,9 @@
 ---
 title: "About THRIVE"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 **T**hriving **H**arnesses **R**espect, **I**nclusion, and **V**ested
@@ -25,9 +29,45 @@ THRIVE Lifeline is Trans-led and operated. We are a group of certified suicide
 interventionists whose identities are marginalized, and who are students and
 early career professionals trained across the breadth of STEMM fields.
 
-We are made up of individuals with the following identities: LGBTQIA+ (95%),
-women and nonbinary (75%), Persons of Color (70%), transgender (65%),
-living with disabilities (50%), and immigrants (15%).
+```{r, echo=FALSE, message=FALSE, fig.align="center"}
+## Reset margins c(bottom, left, top, right)
+## Default is c(5.1, 4.1, 4.1, 2.1)
+par(mar=c(6,4,4,10), xpd=TRUE)
+
+## Set up colors
+colors = c("#65427D", "#FAF4A0") #"#58A4AF", "#EF8254", "#C2C8E5", "#AC8FC0")
+
+# Trait = c(yes, no)
+LGBTQ = c(95, 5)
+WNB = c(75, 25)
+POC = c(70, 30)
+Trans = c(65,35)
+Disability = c(50, 50)
+Immigrant = c(15, 85)
+
+## Create a dataframe with all of these for plotting
+traits = data.frame(LGBTQ, WNB, POC, Trans, Disability, Immigrant)
+
+## Transform the data into %
+traits_percentage <- apply(traits, 2, function(x){x*100/sum(x,na.rm=T)})
+
+## Make a barplot
+barplot(traits_percentage,             ## Use percentage data
+        col=colors,                    ## Use colors from above
+        main="THRIVE's Team",          ## Title Name
+        border="white",                ## Border color for the boxes
+        ylab="Percentage",             ## Y-axis label
+          ## Name the datasets; \n is a linebreak
+        names.arg=c("LGBTQIA+", "Women\n& Non-Binary", "People of\nColor", 
+                    "Transgender", "People with\nDisabilities", "Immigrants"), 
+        legend=c("Yes", "No"),         ## Legend Label
+        las=2,                         ## Turn x-axis 90º
+          ## Force legend outside the plot
+          ## bty is the box around legend (yes = o, no = n)
+        args.legend = list(x ='right', bty='o', inset=c(-0.18,0))
+        )
+```
+
 Our backgrounds include familial rejection due to our identities, homelessness,
 poverty, and working multiple jobs before being able to access and/or while
 accessing education. Many of us are individuals who have navigated accommodations
@@ -90,7 +130,10 @@ Lifeline is providing 100% confidential, judgement-free text-based support at
 
 <br/>
 
-### Please be advised that our text line supports individuals 18+.
+<center>
+<p style="font-size:16pt; font-weight: bolder">Please be advised that our text 
+line supports individuals 18+.</p>
+</center>
 
 If at any time you would like to stop a text-based conversation, please text STOP.
 Conversations are 100% confidential.
@@ -113,4 +156,4 @@ For LGBTQ+ support, please reach out to
    + <a href="tel:+18664887386">+1.866.488.7386</a>.
 
 * Text-based support:
-   + Text START to <a href="sms:678678">678-678</a>.
+   + Text START to <a href="sms:678678&body=START">678-678</a>.

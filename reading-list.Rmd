@@ -1,5 +1,9 @@
 ---
 title: "THRIVE Reading List"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ### Navigating Academia
