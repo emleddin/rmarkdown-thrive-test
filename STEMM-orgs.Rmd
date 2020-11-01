@@ -1,5 +1,9 @@
 ---
 title: "STEMM Organizations"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 - [Alpha Chi Sigma (AXS; Professional Chemistry Fraternity)](https://www.alphachisigma.org/)

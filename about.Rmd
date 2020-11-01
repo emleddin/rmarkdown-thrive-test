@@ -7,11 +7,13 @@ output:
 ---
 
 **T**hriving **H**arnesses **R**espect, **I**nclusion, and **V**ested
-**E**mpathy: A crisis text line staffed by marginalized individuals in STEMM.
+**E**mpathy: A crisis text line staffed by people in STEMM with marginalized
+identities.
 
 THRIVE Lifeline is a grassroots response to COVID-19, organized by experienced
 crisis managers who personally understand the significance of displacement,
-isolation, and financial loss, especially for marginalized individuals in STEMM.
+isolation, and financial loss, especially for people in STEMM with marginalized
+identities.
 
 The summer of 2020 was particularly tumultuous for minority students due to
 a variety of reasons including, but not limited to: racist acts against
@@ -110,7 +112,9 @@ most vulnerable times.
 
 <br/>
 
-### We believe that it is together that we THRIVE.
+<center>
+<p style="font-size:16pt; font-weight: bolder">We believe that it is together that we THRIVE.</p>
+</center>
 
 We need your help in order to keep THRIVE Lifeline as a vital resource!
 You can help by **volunteering, contributing**, and **sharing**.
@@ -123,12 +127,12 @@ providing optimal service to our texters.
 We are additionally seeking funds to train 20 new suicide interveners in the
 upcoming year.
    - [**GoFundMe**](http://tinyurl.com/thrive-support).
-<br/>
+<br>
 - **Share**: If you or anyone that you know is in need of support, THRIVE
 Lifeline is providing 100% confidential, judgement-free text-based support at
 <a href="tel:+13136628209">**+1(313)662-8209**</a>
 
-<br/>
+<br>
 
 <center>
 <p style="font-size:16pt; font-weight: bolder">Please be advised that our text 
