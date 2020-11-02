@@ -2,7 +2,7 @@ name: "THRIVE Lifeline"
 output_dir: "."
 navbar:
 #  title: "THRIVE Lifeline"
-  title: "<img id=\"logo\" style=\"width: 50px;\" src=\"images/test_logo_white_cropped.png\" />"
+  title: "<img id=\"logo\" style=\"width: 50px;\" src=\"images/test_logo_white_cropped.png\" alt=\"THRIVE Lifeline logo\"/>"
   left:
     - text: "Home"
       href: index.html
