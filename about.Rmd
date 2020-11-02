@@ -31,6 +31,11 @@ THRIVE Lifeline is Trans-led and operated. We are a group of certified suicide
 interventionists whose identities are marginalized, and who are students and
 early career professionals trained across the breadth of STEMM fields.
 
+<div role="img" 
+aria-label="Barplot of the identities of the THRIVE Lifeline team. 
+LGBTQIA+ makes up 95%, women and non-binary makes up 75%, 
+people of color make up 70%, people with disabilities make up 50%, 
+and immigrants make up 15%.">
 ```{r, echo=FALSE, message=FALSE, fig.align="center"}
 ## Reset margins c(bottom, left, top, right)
 ## Default is c(5.1, 4.1, 4.1, 2.1)
@@ -69,6 +74,7 @@ barplot(traits_percentage,             ## Use percentage data
         args.legend = list(x ='right', bty='o', inset=c(-0.18,0))
         )
 ```
+</div>
 
 Our backgrounds include familial rejection due to our identities, homelessness,
 poverty, and working multiple jobs before being able to access and/or while

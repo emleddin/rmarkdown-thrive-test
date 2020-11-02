@@ -3,7 +3,13 @@ title: "Welcome to THRIVE"
 tags: LGBTQ, LGBTQ crisis resources, LGBTQ crisis hotline, lesbian, gay, bisexual, transgender, queer, trans, asexual, resources, crisis, hotline, help, suicide, depression, depressed, anxiety, anxious, stress, stressed, self harm, isolation, STEM, science, technology, mathematics, engineering, math, eng, tech, biology, bio, physics, phys, chemistry, chem, biochem, biochemistry, chem eng, chemical engineering, mech eng, mechanical engineering, civil engineering, civ eng, comp sci, computer science, env sci, environmental science, identity, marginalized, underrepresented, disability, disabled, BIPOC, QTBIPOC, Two Spirit, 2 Spirirt, alone
 ---
 <center>
-![](images/Only_One.png "One person is texting on a phone in the top left, saying I'm sick of feeling like the only one. Another person is on a laptop in the bottom right, saying I'm glad you reached out. I'm here for you. Additional text reads text THRIVE 24/7/3655 to +1.313.662.8209 with the THRIVE Lifeline logo underneath."){width=50%}
+
+<img src="images/Only_One.png" alt="One person is texting on a phone in the top 
+left, saying I'm sick of feeling like the only one. Another person is on a 
+laptop in the bottom right, saying I'm glad you reached out. I'm here for you. 
+Additional text reads text THRIVE 24/7/3655 to +1.313.662.8209 with the THRIVE 
+Lifeline logo underneath." style="width: 50%; height: 50%"/>
+
 </center>
 <br>
 
